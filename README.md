@@ -53,8 +53,8 @@ python manage.py runserver
 ]
 ```
 Добавление комментария к посту id=2, авторизованным пользователем leo (отправляется токен)
-```POST .../api/v1/posts/2/comments/  
-
+```
+POST .../api/v1/posts/2/comments/  
 {
 "text": "Прекрасный пост!"
 }
